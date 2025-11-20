@@ -1,10 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <algorithm>
-#include <vector>
-#include <unordered_map>
-#include <string>
-#include<queue>
 using namespace std;
 
 ifstream fin("input.txt");
@@ -142,7 +137,7 @@ int main()
     fout << endl;
     postTraversal(root);
     
-    fout<<"--------"<<endl;
+    fout<<endl<<"--------"<<endl;
     Node *root2 = NULL;
     root = buildTree(root2);
     // 2 1 -1 -1 3 4 -1 -1 -1
